@@ -1,0 +1,8 @@
+.header {
+    background-image: url("images/desktop/image-hero.jpg");
+    height: 49vh;
+}
+
+.header img {
+    width: 100vw;
+}

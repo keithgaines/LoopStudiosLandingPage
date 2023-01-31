@@ -16,7 +16,7 @@
     border-width: 2px;
     margin: 50px;
     font-size: 35pt;
-    width: 50vw;
+    width: 40%;
     padding-right: 10vw;
 }
 
@@ -28,7 +28,7 @@
 .vrimage {
     padding-left: 10%;
     padding-top: 10%;
-    width: 100%;
+    width: 60%;
     position: relative;
 }
 
@@ -54,7 +54,7 @@
 .ourcreations {
     width: 100%;
     padding-left: 50px;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
 .ourcreations h1 {
@@ -63,9 +63,27 @@
 
 .button {
     float: right;
-    margin-right: 15%;
+    margin-right: 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
-.container {
-    margin-top: 20%;
+.imagecontainer {
+    position: relative;
+    padding: 50px;
+}
+
+.container-fluid img {
+    position: inherit;
+    padding: 5px;
+}
+
+.textoverlay {
+    color: white;
+    position: relative;
+    bottom: 70px;
+    left: 40px;
+    font-size: 25pt;
 }

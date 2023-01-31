@@ -21,29 +21,51 @@
 }
 
 .flexcontainer {
-    position: relative;
+    position: absolute;
+    height: 80vh;
 }
 
 .vrimage {
     padding-left: 10%;
     padding-top: 10%;
-    width: 60%;
-    position: absolute;
+    width: 100%;
+    position: relative;
 }
 
 .vrimage img {
     float: left;
-    width: 100%;
+    width: 60%;
+    z-index: 1;
+    position: absolute;
 }
 
 .vrtext {
     border-style: solid;
-    border-color: black;
+    border-color: white;
     padding: 50px;
-    width: 80%;
-    position: absolute;
+    width: 40%;
+    position: relative;
     background-color: white;
-    margin-top: 35%;
-    margin-right: 10%;
-    margin-left: 50%;
+    margin-top: 15%;
+    margin-left: 52%;
+    z-index: 2;
+}
+
+.ourcreations {
+    width: 100%;
+    padding-left: 50px;
+    margin-top: 10%;
+}
+
+.ourcreations h1 {
+    float: left;
+}
+
+.button {
+    float: right;
+    margin-right: 15%;
+}
+
+.container {
+    margin-top: 20%;
 }

@@ -70,20 +70,16 @@
     padding-bottom: 5px;
 }
 
-.imagecontainer {
-    position: relative;
-    padding: 50px;
+.container {
+    margin-top: 20%;
 }
 
-.container-fluid img {
-    position: inherit;
-    padding: 5px;
-}
-
-.textoverlay {
+.text-left {
     color: white;
-    position: relative;
-    bottom: 70px;
-    left: 40px;
-    font-size: 25pt;
+    bottom: 40px;
+    left: 20px;
+}
+
+.position-relative {
+    padding-top: 20px;
 }

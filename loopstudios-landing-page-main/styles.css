@@ -1,12 +1,10 @@
 .header {
     background-image: url("images/desktop/image-hero.jpg");
-    height: 49vh;
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 50vh;    
     color: white;
 
-}
-
-.header img {
-    width: 100vw;
 }
 
 .navbar {
@@ -20,4 +18,32 @@
     font-size: 35pt;
     width: 50vw;
     padding-right: 10vw;
+}
+
+.flexcontainer {
+    position: relative;
+}
+
+.vrimage {
+    padding-left: 10%;
+    padding-top: 10%;
+    width: 60%;
+    position: absolute;
+}
+
+.vrimage img {
+    float: left;
+    width: 100%;
+}
+
+.vrtext {
+    border-style: solid;
+    border-color: black;
+    padding: 50px;
+    width: 80%;
+    position: absolute;
+    background-color: white;
+    margin-top: 35%;
+    margin-right: 10%;
+    margin-left: 50%;
 }

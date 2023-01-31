@@ -1,8 +1,22 @@
 .header {
     background-image: url("images/desktop/image-hero.jpg");
     height: 49vh;
+    color: white;
+
 }
 
 .header img {
     width: 100vw;
+}
+
+.navbar {
+    padding: 50px;    
+}
+
+.headertext {
+    border-style: solid;
+    margin: 50px;
+    font-size: 35pt;
+    width: 50vw;
+    padding-right: 10vw;
 }

@@ -5,7 +5,6 @@ body {
 .header {
     background-image: url("images/desktop/image-hero.jpg");
     background-size: 100% 100%;
-    width: 100vw;
     height: auto;    
     color: white;
     padding-bottom: 100px;
@@ -27,7 +26,7 @@ body {
 .flexcontainer {
     position: absolute;
     height: 80vh;
-    width: 100vw;
+    width: 80%;
 }
 
 .vrimage {
@@ -57,7 +56,7 @@ body {
 }
 
 .ourcreations {
-    width: 100%;
+    width: 80%;
     margin-left: 10%;    
     margin-top: 15%;
 }
@@ -97,8 +96,7 @@ body {
 }
 
 footer {
-    color: white;
-    /* background-color: black; */
+    padding-left: 10%;
 }
 
 .footer embed {

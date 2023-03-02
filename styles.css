@@ -5,10 +5,9 @@ body {
 .header {
     background-image: url("images/desktop/image-hero.jpg");
     background-size: 100% 100%;
-    height: 70vh;    
+    height: 650px;    
     color: white;
     padding-bottom: 100px;
-
 }
 
 .navbar {
@@ -18,9 +17,12 @@ body {
 .headertext {
     border-style: solid;
     border-width: 2px;
-    font-size: 35pt;
-    width: 30%;
-    margin-left: 10%;
+    font-size: 62pt;
+    width: 50%;
+    margin-left: 3%;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 80px;
+    padding: 3%;
 }
 
 .flexcontainer {
@@ -55,29 +57,23 @@ body {
     z-index: 2;
 }
 
-.ourcreations {
-    width: 80%;
-    margin-left: 10%;    
-    margin-top: 15%;
-}
-
 .ourcreations h1 {
     float: left;
 }
 
 .button {
     float: right;
-    margin-right: 14%;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 5px;
     background-color: white;
+    margin-right: 5%;
 }
 
 .container {
-    margin-top: 20%;
-    width: 90%;
-    margin-left: 5%;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
 }
 
 .row {
@@ -96,7 +92,7 @@ body {
 }
 
 footer {
-    padding-left: 10%;
+    padding: 5%;
 }
 
 .footer embed {

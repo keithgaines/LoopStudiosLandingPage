@@ -41,7 +41,7 @@ body {
 .vrimage img {
     float: left;
     width: 70%;
-    z-index: 1;
+    /* z-index: 1; */
     position: absolute;
 }
 
@@ -54,7 +54,7 @@ body {
     background-color: white;
     margin-top: 30%;
     margin-left: 70%;
-    z-index: 2;
+    /* z-index: 2; */
 }
 
 .ourcreations h1 {
@@ -73,7 +73,119 @@ body {
 .container {
     margin: auto;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    margin-left: 3%;
+}
+
+.row {
+    width: 100%;
+}
+
+.text-left {
+    color: white;
+    bottom: 5px;
+    left: 20px;
+}
+
+.position-relative {
+    padding-top: 20px;
+    width: 100%;
+}
+
+footer {
+    padding: 5%;
+}
+
+.footer embed {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+ul {
+    color: white;
+}
+
+.footer a:visited {
+    color: white;
+}
+
+@media (min-width: 375px) {
+
+    .header {
+    background-image: url("images/mobile/image-hero.jpg");
+    color: white;
+    padding-bottom: 100px;
+    background-size: cover;
+    min-height: 650px;
+}
+
+.navbar {
+    padding: 50px;    
+}
+
+.headertext {
+    border-style: solid;
+    border-width: 2px;
+    padding: 5%;
+    width: 82%;
+    margin: auto;
+}
+
+.headertext p {
+    font-size: 30pt;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 38px;
+}
+
+.flexcontainer {
+    position: absolute;
+    height: 80vh;
+    width: 80%;
+}
+
+.vrimage {
+    width: 90%;
+    height: 0;
+    padding-bottom: 80%; /* set a 1:1 aspect ratio */
+    margin: auto;
+    position: relative;
+    background-image: url('images/mobile/image-interactive.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}   
+
+.vrtext {
+    border-style: solid;
+    border-color: white;
+    width: 100%;
+    position: relative;
+    background-color: white;
+    margin-left: 0;
+    margin-top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 15pt;
+    line-height: 25px;
+    font-family: 'Alata', sans-serif;
+}
+
+
+.ourcreations h1 {
+    float: left;
+}
+
+.button {
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    background-color: white;
+    margin-right: 5%;
+}
+
+.container {
+    margin-top: 130%;
 }
 
 .row {
@@ -107,57 +219,4 @@ ul {
 .footer a:visited {
     color: white;
 }
-
-@media (max-width: 1200px) {
-
-    .header {
-        height: 100%;
-    }
-
-    .headertext {
-        border-style: solid;
-        border-width: 2px;
-        font-size: 35pt;
-        width: 80%;
-    }
-
-    .vrimage {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .vrimage img {
-        width: 80vw;
-        position: relative;
-    }
-
-    .vrtext {
-        position: relative;
-        width: 90vw;
-        margin: auto;
-        text-align: center;
-    }
-
-    .title {
-        width: 100%;
-    }
-    
-    .container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .button {
-        margin-top: 20px;
-        margin-left: auto;
-        margin-right: auto;
-        justify-content: center;
-    }
-
-    
-    
-    .flexcontainer .button {
-        object-position: bottom;
-    } 
-
-    }
+}
